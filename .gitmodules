@@ -1,0 +1,16 @@
+[submodule "core-service"]
+	path = core-service
+	url = https://github.com/Lunaz-Gateway/core-service
+	branch = master
+[submodule "demo-app"]
+	path = demo-app
+	url = https://github.com/Lunaz-Gateway/sunday-market
+	branch = master
+[submodule "docs"]
+	path = docs
+	url = https://github.com/Lunaz-Gateway/docs
+	branch = master
+[submodule "landing"]
+	path = landing
+	url = https://github.com/Lunaz-Gateway/landing
+	branch = master
