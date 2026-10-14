@@ -174,14 +174,3 @@ Keep your spending keys in your own wallet. Do not give them to Lunaz.
 ## Sunday Market
 
 [Sunday Market](https://demo.lunaz.alwaysbedream.dev) shows how a marketplace uses Lunaz. It has five independent shops, and each shop is its own Lunaz merchant with its own wallet. The marketplace keeps its orders in its own database. It receives the Lunaz webhooks, checks the signature and marks orders as paid. Buyers can pay with shielded ZEC or with another asset.
-
-## Known limitations
-
-- Chain reorganisations are not handled yet.
-- The viewing key cannot be changed after you set it.
-- Wallet creation in the browser is not available yet. Merchants bring their own wallet and viewing key.
-- Withdraw to bank is in testing with the off-ramp partner.
-- Some wallets may not support payment requests with two recipients yet.
-- A cross-chain payment needs an invoice of approximately 0.001 ZEC or more.
-- A swap can deliver a little more or less ZEC than the invoice. Lunaz cannot refund. The merchant refunds any difference.
-- The deposit on the origin chain of a cross-chain payment is public.
