@@ -6,9 +6,13 @@ Lunaz is a non-custodial payment gateway for shielded Zcash. A buyer pays with Z
 
 The name comes from the Indonesian word *lunas* ("paid in full") plus a "z" for Zcash. LUNAS is the success state that a buyer sees when a payment is complete.
 
-- Website and dashboard: https://lunaz.alwaysbedream.dev
-- Documentation: https://lunaz.alwaysbedream.dev/docs
-- Demo marketplace (Sunday Market): https://demo.lunaz.alwaysbedream.dev
+| | Mainnet | Testnet |
+| --- | --- | --- |
+| Website and dashboard | https://lunaz.alwaysbedream.dev | https://test-lunaz.alwaysbedream.dev |
+| Demo marketplace (Sunday Market) | https://demo.lunaz.alwaysbedream.dev | https://test-demo.lunaz.alwaysbedream.dev |
+| Documentation | https://lunaz.alwaysbedream.dev/docs | |
+
+Mainnet uses real ZEC. Testnet uses TAZ, test coins with no value, and pays with shielded ZEC only.
 
 ## The problem
 
